@@ -1,19 +1,8 @@
 {
   "generated_at": "2026-06-03T16:44:17",
-  "dashboard_mode": "latest_by_talent",
-  "current_call_id": "run_20260603_164417_与辉同行_厨卫家电_2026-06-03_d9ac47a6",
-  "updated_first_categories": [
-    "厨卫家电"
-  ],
-  "updated_at_by_first_category": {
-    "厨卫家电": "2026-06-03T16:44:17"
-  },
-  "allowed_first_categories": [
-    "厨卫家电",
-    "家具建材",
-    "家居家纺"
-  ],
-  "note": "latest 固定入口：同一达人下，按一级类目保存最新一次结果。本次调用会替换对应一级类目，其他类目保留其最新结果；不是历史累计求和。",
+  "dashboard_mode": "run_snapshot",
+  "call_id": "run_20260603_164417_与辉同行_厨卫家电_2026-06-03_d9ac47a6",
+  "note": "snapshot 模式：本看板只包含本次调用解析出的 Excel 数据，不合并历史数据。销售额/销量区间保留原值，并生成区间中位数估算用于看板排序。",
   "summary_rows": [
     {
       "run_id": "与辉同行_厨卫家电_2026-06-03_生活电器_963af117",
@@ -184,5 +173,10 @@
       "source_file": "与辉同行_厨卫家电-厨具_20260603_0744_20260603_164404_直播详情商品销售记录.xlsx"
     }
   ],
-  "talent_key": "yuhuitongxing"
+  "talent_key": "yuhuitongxing",
+  "allowed_first_categories": [
+    "厨卫家电",
+    "家具建材",
+    "家居家纺"
+  ]
 }
